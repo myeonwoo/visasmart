@@ -24,6 +24,9 @@
 	<link rel="stylesheet" href="<?php echo base_url(); ?>static/css/carousel.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>static/css/switcher.css"> <!-- Style Switcher -->
 	
+	<script src="<?php echo base_url(); ?>static/js/jquery.js" type="text/javascript"></script>
+	<script type="text/javascript" src="<?php echo base_url() . 'static/js/site.js' ?>"></script>
+
 	<!-- Java Script -->
 	<script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, 'js');</script>
 	<!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
