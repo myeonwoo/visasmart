@@ -1,0 +1,1 @@
+								<img src="/common/images/visual2_04.gif" class="block" alt="" />

@@ -1,0 +1,166 @@
+/* 추가할 CSS가 있을시 import하세요 */
+/*@import url('');*/
+@charset "utf-8";
+@import 'board.css';
+
+/* global defaults */
+	header, hgroup, footer, section, aside, nav, article {display: block; margin:0;padding:0;}
+	body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,p,blockquote,button,th,td,textarea,input{margin:0;padding:0;}
+	hr, legend {display:none;}
+	img, fieldset {border:0 none;}
+	body, h1, h2, h3, h4, h5, dl, dt, dd, th, td, p, form, fieldset, legend, input, div {font-size:12px; font-weight:normal;}
+	ul, ol, li {list-style:none outside;}
+	img, input, select, textarea, label{vertical-align:middle;}
+	body,th,td{font-size:12px; font-family:dotum, gulim, sans-serif;}
+	label, caption{position:absolute; left:-99999px; top:-99999px; z-index:99; display:none;}
+	a:link,
+	a:visited {text-decoration:none; color:#707070;}
+	a:hover{text-decoration:none; color:#000;}
+
+	a.link_bl:link,
+	a.link_bl:visited {text-decoration:underline; color:#000;}
+	a.link_bl:hover{text-decoration:underline; color:#ffc000;}
+
+/* clear Style */
+	.c_box {*zoom:1;}
+	.c_box:after {content:" "; display:block; clear:both; height:0; visibility:hidden;}
+
+/* png img Style */
+	.png{behavior: url("/css/iepngfix.htc")}
+
+/* Form Style */
+	input{vertical-align:top;  line-height:16px; border:1px solid #dadada; padding-left:6px; font-size:11px; color:#666666; *margin-top:-1px; background-color:#ffffff;}
+	.radio{width:13px; height:13px; overflow:hidden; border:0; background-color:#fff; }
+
+/* library */
+	.tal {text-align: left !important; }
+	.tac {text-align: center !important}
+	.tar {text-align: right !important; }
+	.taj {text-align: justify; }
+	.vam{vertical-align:middle;}
+	.vat{vertical-align:top;}
+	.vab{vertical-align:bottom;}
+	.float_l {float: left; }
+	.float_r {float: right; }
+	.clear_b {clear: both; float: none; }
+	.clear_r {clear: right; float: none;}
+	.clear_l {clear: left; float: none;}
+	.normal {font-weight: normal;}
+	.block {display: block;}
+	.bold {font-weight: bold;}
+	.let{letter-spacing:-1px;}
+	.let2 {letter-spacing:-2px;}
+	.deco_l{text-decoration:line-through;}
+	.deco_u{text-decoration:underline;}
+
+/* font Style */
+	.p_d{font-family:dotum;}
+	.p_a{font-family:arial;}
+	.p_v{font-family:verdana;}
+	.p_t{font-family:tahoma;}
+
+
+.c_cf6600{color:#cf6600;}
+.c_ffc000{color:#ffc000;}
+.c_ffffff{color:#ffffff;}
+
+
+/* Layout Style */
+	#header{margin:0; padding:0; width:100%; border-bottom:0px solid #bcbcbc; text-align:center;}
+		#header .header_area{position:relative;width:1000px; height:98px;margin:0 auto; text-align:left; z-index:2;}
+			#header .header_area p.top_utility{float:right; font-size:0;}
+			#header .header_area p.top_utility a {float:left;}
+			#header .header_area ul.head_box{position:relative;width:100%; font-size:0; line-height:0; clear:both;}
+				#header .header_area ul.head_box li.Logo{position:absolute;left:0;top:-12px;width:175px; font-size:0; line-height:0; z-index:99;}
+				#header .header_area ul.head_box li.Gnb{width:825px; font-size:0; line-height:0; float:right;}
+
+
+	 #footer{margin:0; padding:35px 0 50px 0; width:100%; text-align:center; clear:both;}
+		#footer ul.footer_area{width:1000px; margin:0 auto; overflow:hidden; text-align:left;}
+			#footer ul.footer_area li.foot_left{width:1000px; overflow:hidden; font-size:0; line-height:0; float:left;}
+			#footer ul.footer_area li.foot_right{width:250px; overflow:hidden; font-size:0; line-height:0; float:right; text-align:right;}
+
+
+	#s_contents{width:1000px; margin:0 auto; padding:0 0 0 0; overflow:hidden; text-align:left;  z-index:1; background:#fff; }/*url('/common/images/lnb/cons_bg.gif') repeat-y left top;*/
+		#s_contents #contents_l{margin:0; padding:0; width:175px; float:left;}
+			#s_contents #contents_l img{display:block;}
+			#s_contents #contents_l a{padding-top:15px;}
+			#s_contents #contents_l .contents_l_fla{background-color:#ffffff; width:175px; overflow:hidden; display:block; clear:both; font-size:0; line-height:0;}
+				#s_contents #contents_l ul.contents_l_fla li{margin-bottom:10px; font-size:0; line-height:0;}
+				#s_contents #contents_l ul.contents_l_fla li a{padding-top:0;}
+		#s_contents #contents_r{margin:0; padding:0; width:825px; float:right;}
+			#s_contents #contents_r .cont_area{margin:15px 0 0 42px; width:783px; overflow:hidden;}
+
+	#m_contents{width:1000px; margin:0 auto; overflow:hidden; text-align:left; padding:00px 0 10px;}
+		#m_contents ul#Main_con{margin:0; padding:0; width:100%; clear:both; font-size:0; line-height:0;}
+			#m_contents ul#Main_con li.Mcon_box01{margin:0; padding:0 0 0 0; width:161px; font-size:0; line-height:0; float:left; overflow:hidden;}
+			#m_contents ul#Main_con li.Mcon_box02{margin:0; padding:0 0 0 14px; width:435px; font-size:0; line-height:0; float:left; overflow:hidden;}
+			#m_contents ul#Main_con li.Mcon_box03{margin:0; padding:0 0 0 15px; width:150px; font-size:0; line-height:0; float:left; overflow:hidden;}
+			#m_contents ul#Main_con li.Mcon_box03 img {vertical-align:top;}
+			#m_contents ul#Main_con li.Mcon_box04{margin:0; padding:0 0 0 15px; width:210px; font-size:0; line-height:0; float:left; overflow:hidden;}
+/* page Style */
+	body{text-align:center; line-height:16px; font:12px 돋움, dotum; color:#b1b1b1; }
+
+/* Main Page Style */
+	.Main_Banner01{border-top:2px padding-top:5px; margin-bottom:6px;}
+	.Main_Banner02{border-top:2px solid #991122; border-bottom:2px solid #991122; margin-bottom:6px;}
+	.Main_Banner03{border-top:2px padding-top:5px; margin-top:10px; margin-bottom:10px;}
+
+	.main_Text_box03{margin:16px 0 -5px; width:100%;}
+
+	dl.main_Text_title{width:100%; position:relative; z-index:1; overflow:hidden; background-color:#ffffff; border-bottom:2px solid #bcbcbc; margin-bottom:12px;}
+		dl.main_Text_title dd{position:absolute; right:0px; top:0px; z-index:99;}
+
+	ul.main_Text_List{width:100%; overflow:hidden; background-color:#ffffff; padding-bottom:13px;}
+		ul.main_Text_List li{background:url('/common/images/main/bul_2x2_g.gif') no-repeat 5px 9px; font-size:11px; line-height:22px; color:#707070; padding-left:12px;}
+
+	ul.main_con_cbox01{width:100%; overflow:hidden; background-color:#ffffff; margin-bottom:18px;}
+		ul.main_con_cbox01 li.left{font-size:0px; line-height:0px; float:left; width:210px;}
+		ul.main_con_cbox01 li.right{font-size:0px; line-height:0px; float:right; width:210px;}
+		ul.main_con_cbox01 li a {font-size:12px;}
+		ul.main_con_cbox01 li a img {vertical-align:top;}
+
+	ul.main_con_cbox02{width:100%; overflow:hidden; background-color:#ffffff; margin-bottom:0px;}
+		ul.main_con_cbox02 li.left{font-size:0px; line-height:0px; float:left; width:210px;}
+		ul.main_con_cbox02 li.right{font-size:0px; line-height:0px; float:right; width:210px;}
+
+
+/* Tab Style */
+	ul.Tab_Area{background:url('/common/images/visa/tab_bg.gif') repeat-x left top; width:100%; overflow:hidden; margin-bottom:15px;}
+		ul.Tab_Area li{float:left; font-size:0; line-height:0;}
+
+
+/* Menu Style */
+	ul.GnbArea{font-size:0; line-height:0; width:100%;}
+		ul.GnbArea li.Menu01{font-size:0; line-height:0; float:left; position:relative; z-index:1;}
+			ul.GnbArea li.Menu01 ul.Menu02{font-size:0; line-height:0; width:100%; clear:both; padding:5px 0 10px; background-color:#195c9a; position:absolute; left:0px; top:30px; z-index:99;}
+				ul.GnbArea li.Menu01 ul.Menu02 li{font-size:0; line-height:0; clear:both;}
+
+	ul.LnbArea{background:url('/common/images/lnb/Lnb_bg.gif') no-repeat left top; font-size:0; line-height:0; width:100%; height:350px;}
+		ul.LnbArea li.Title{margin-bottom:5px;}
+		ul.LnbArea li.Line{margin-top:8px;}
+
+
+
+/* Privacy */
+	.privacy_area{border:1px solid #cccccc; padding:20px; line-height:16px; font-size:11px; color:#666; height:80px; overflow:hidden; overflow-y:scroll;}
+	.privacy_radio{margin:8px 0 30px; text-align:center; width:100%;}
+
+
+/* top navi */
+#topnaviAll {position:relative;}
+	/* close topnavi */
+	#naviClose {overflow:hidden;*zoom:1;}
+	#naviClose li {float:left;}
+
+	/* open topnavi */
+	#naviOpen {position:absolute;display:none;left:0;top:0;height:313px;background:url('/images/common/topNavi/bg_open.jpg') left bottom no-repeat;z-index:1000;*zoom:1;}
+	#naviOpen li {float:left;}
+	#naviOpen li dl.tsnavi {padding:60px 0 0 20px;}
+	#naviOpen li dl.tsnavi dt {padding:0 0 2px 14px;margin-top:15px;background:url('/images/common/topNavi/bul_01.gif') no-repeat;}
+	#naviOpen li dl.tsnavi dt.first {margin-top:0;}
+	#naviOpen li dl.tsnavi dd {padding:0 0 0 14px;margin-top:7px;}
+
+	#naviOpen li img {vertical-align:top;display:block;}
+
+.BOARD_CONTENT{height:400px;}
