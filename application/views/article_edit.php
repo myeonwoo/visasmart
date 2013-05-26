@@ -72,11 +72,6 @@
 				url: url, 
 				success: function(content){
 					console.log(content);
-
-					/**
-					 **	TODO: reload url
-					**/
-
 					return;
 				},
 				error: function(){
