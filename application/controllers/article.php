@@ -54,8 +54,10 @@ class Article extends CI_Controller {
 		$this->load->model('article_model');
 
 		if ($id){
+			$data['id'] = $id;
 			$data['content'] = $this->article_model->get($id);
 		} else {
+			$data['id'] = 'null';
 			$data['content'] = $id;
 		}
 		$this->load->view('header');

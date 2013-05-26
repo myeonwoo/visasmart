@@ -35,6 +35,7 @@
 <script type='text/javascript'>
 	var oEditors = [];
 	var file;
+	var id = <?php echo $id; ?>;
 
 	$(function() {
 		var url = local_site.site_url;
@@ -55,8 +56,9 @@
 			// 수정한 글 옮기기
 			oEditors.getById["board_content"].exec("UPDATE_CONTENTS_FIELD", []);
 
-			var url = local_site.site_url + 'api/article/create/format/json';
+			var url = local_site.site_url + 'api/article/update/format/json';
 			var data = {};
+			data['id'] = id; // notice
 			data['type'] = 1; // notice
 			data['title'] = 'test'; // notice
 			data['content'] = $('#board_content').val();
