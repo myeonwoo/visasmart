@@ -150,10 +150,64 @@
 							</ul>
 						</li>
 						
-						<li><a href="contact.html">Contact</a>
+						<li><a href="contact.html">Template</a>
 							<ul>
-								<li><a href="<?php echo site_url("home"); ?>">Defaul Layout</a></li>
-								<li><a href="<?php echo site_url("home"); ?>">Alternative Layout</a></li>
+								<li><a href="<?php echo site_url("home"); ?>">Home</a>
+									<ul>
+										<li><a href="<?php echo site_url("home"); ?>">page1</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">page2</a></li>
+									</ul>
+								</li>
+								<li><a href="<?php echo site_url("home"); ?>">Page Template</a>
+									<ul>
+										<li><a href="<?php echo site_url("home"); ?>">About Us</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">Service Page1</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">Service Page2</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">Team</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">Member Profile</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">Gallery</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">Full-width Page</a></li>
+										
+									</ul>
+								</li>
+								<li><a href="<?php echo site_url("home"); ?>">Portfolio</a>
+									<ul>
+										<li><a href="<?php echo site_url("home"); ?>">1 Column</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">2 Column</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">3 Column</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">3 Column Full-width</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">4 Column Full-width</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">Single Project</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">Project with Gallery Slider</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">Project with Slideshow</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">Project with video</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">Youtube Video</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">Vimeo Video</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">HTML5 Video</a></li>
+									</ul>
+								</li>
+								<li><a href="<?php echo site_url("home"); ?>">Blog</a>
+									<ul>
+										<li><a href="<?php echo site_url("home"); ?>">Large Image</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">Medium Image</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">Single Post</a></li>
+									</ul>
+								</li>
+								<li><a href="<?php echo site_url("home"); ?>">Features</a>
+									<ul>
+										<li><a href="<?php echo site_url("home"); ?>">Typography</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">Columns</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">Elements</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">Media and Sliders</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">Pricing Tables</a></li>
+									</ul>
+								</li>
+								<li><a href="<?php echo site_url("home"); ?>">Contact</a>
+									<ul>
+										<li><a href="<?php echo site_url("home"); ?>">Default Layout</a></li>
+										<li><a href="<?php echo site_url("home"); ?>">Alternative Layout</a></li>
+									</ul>
+								</li>
 							</ul>
 						</li>
 

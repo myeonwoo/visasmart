@@ -8,7 +8,7 @@
 	body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,p,blockquote,button,th,td,textarea,input{margin:0;padding:0;}
 	hr, legend {display:none;}
 	img, fieldset {border:0 none;}
-	body, h1, h2, h3, h4, h5, dl, dt, dd, th, td, p, form, fieldset, legend, input, div {font-size:12px; font-weight:normal;}
+	body, h1, h2, h3, h4, h5, dl, dt, dd, th, td, p, form, fieldset, legend, input, div {font-weight:normal;}
 	ul, ol, li {list-style:none outside;}
 	img, input, select, textarea, label{vertical-align:middle;}
 	body,th,td{font-size:12px; font-family:dotum, gulim, sans-serif;}
