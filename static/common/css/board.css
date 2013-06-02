@@ -152,5 +152,5 @@
 		dl.Style01_Dl dt{font-size:11px; line-height:16px; color:#ff0000;}
 		dl.Style01_Dl dd{font-size:11px; line-height:16px; color:#666666; text-align:justify;}
 
-	p.Style02_p{margin:0 0 15px 0; padding:0; width:100%; font-size:11px; line-height:16px; color:#666666;}
+	p.Style02_p{margin:0 0 15px 0; padding:0; width:100%; font-size:11px; line-height:16px; color:#666666; text-align:left}
 

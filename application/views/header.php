@@ -25,7 +25,11 @@
 	<link rel="stylesheet" href="<?php echo base_url(); ?>static/css/prettyPhoto.default.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>static/css/carousel.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>static/css/switcher.css"> <!-- Style Switcher -->
-	
+
+
+	<!-- 예전 사이트 style sheet -->
+	<link rel="stylesheet" href="<?php echo base_url(); ?>static/common/css/style.css">
+
 	<script src="<?php echo base_url(); ?>static/js/jquery.js" type="text/javascript"></script>
 	<script type="text/javascript" src="<?php echo base_url() . 'static/js/site.js' ?>"></script>
 
@@ -67,11 +71,11 @@
 							</ul>
 						</li>
 						
-						<li><a href="<?php echo site_url("usa/first"); ?>">미국비자</a>
+						<li><a href="<?php echo site_url("usa/article/view/id/1"); ?>">미국비자</a>
 							<ul>
-								<li><a href="<?php echo site_url("usa/first"); ?>">유학|문화 교류</a>
+								<li><a href="<?php echo site_url("usa/article/view/id/1"); ?>">유학|문화 교류</a>
 									<ul>
-										<li><a href="<?php echo site_url("usa/first"); ?>">미국비자 숙지사항</a></li>
+										<li><a href="<?php echo site_url("usa/article/view/id/1"); ?>">미국비자 숙지사항</a></li>
 										<li><a href="<?php echo site_url("home"); ?>">미국비자 준비사항</a></li>
 										<li><a href="<?php echo site_url("home"); ?>">미국비자 성공전략</a></li>
 									</ul>

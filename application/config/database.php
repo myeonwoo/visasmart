@@ -45,7 +45,7 @@ $active_record = TRUE;
 /** 내 개발 서버이면 **/
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
-$db['default']['password'] = '';
+$db['default']['password'] = 'root';
 $db['default']['database'] = 'visasmart';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';

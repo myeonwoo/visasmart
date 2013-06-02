@@ -27,6 +27,29 @@ class Article_Model extends CI_Model
 
 	}
 
+	public function update_content($id, $content)
+	{
+		$content = utf8_decode(rawurldecode($content));
+		
+		$this->db->where( 'id', $id );
+		$fields = array('content'=>$content);
+		$ret = $this->db->update('article', $fields);
+
+		return 'updated';
+	}
+
+	public function update_content_dev($id, $content)
+	{
+		$sql = "
+		UPDATE article 
+		SET content = '$content'
+		WHERE id = $id";
+
+		$this->db->query($sql);
+
+		return 'updated';
+	}
+
 	public function update($id, $fields)
 	{
 		$content = $fields['content'];
@@ -40,11 +63,9 @@ class Article_Model extends CI_Model
 		$ret = $this->db->update('article', $fields);
 	}
 
-	public function get($id)
+	public function get_content($id)
 	{
-		$sql = "
-			select content from article where id=$id
-		";
+		$sql = "select content from article where id=$id";
 		$query = $this->db->query($sql);
 		$cnt = $query->num_rows();
 		if( $cnt == 1 ){

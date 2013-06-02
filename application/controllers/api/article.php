@@ -18,11 +18,13 @@ require APPPATH.'/libraries/REST_Controller.php';
 
 class Article extends REST_Controller
 {
-    function test_get(){
+    function test_get()
+    {
         $id = $this->get('id');
         $ret = array('id'=>$id);
         $this->response($ret, 200);
     }
+
     function create_post(){
         $fields = array();
         $fields['type'] = $this->post('type');
@@ -35,20 +37,50 @@ class Article extends REST_Controller
         $this->response($fields, 200);
     }
 
+    public function set_content_post()
+    {
+        $id = $this->post('id');
+        $content = $this->post('content');
+
+        //$content = utf8_decode($content);
+        $content_decode = utf8_encode($content);
+
+        $this->load->model('article_model');
+        $ret = $this->article_model->update_content($id, $content_decode);
+
+        $this->response( array($id,$content), 200);
+    }
+
     public function update_post()
     {
         $fields = array();
         $id = $this->post('id');
         $fields['type'] = $this->post('type');
         $fields['title'] = $this->post('title');
-        $fields['content'] = $this->post('content');
+        $content = $this->post('content');
+        $fields['content'] = $content;
+        $fields['content_rawde'] = rawurldecode($content);
+        $fields['content_urf8_de'] = utf8_decode(rawurldecode($content));
+        $fields['content_urf8_de'] = utf8_decode($content);
 
         $this->load->model('article_model');
-        $ret = $this->article_model->update($id, $fields);
+        $ret = $this->article_model->update_content($id, $fields['content']);
 
-        $fields['ret'] = $ret;
+        $fields['db_ret'] = $ret;
         $this->response($fields, 200);
     }
 
-	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
