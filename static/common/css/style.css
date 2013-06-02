@@ -99,7 +99,7 @@
 			#m_contents ul#Main_con li.Mcon_box03 img {vertical-align:top;}
 			#m_contents ul#Main_con li.Mcon_box04{margin:0; padding:0 0 0 15px; width:210px; font-size:0; line-height:0; float:left; overflow:hidden;}
 /* page Style */
-	body{text-align:center; line-height:16px; font:12px 돋움, dotum; color:#b1b1b1; }
+	body{text-align:left; line-height:16px; font:12px 돋움, dotum; color:#b1b1b1; }
 
 /* Main Page Style */
 	.Main_Banner01{border-top:2px padding-top:5px; margin-bottom:6px;}
