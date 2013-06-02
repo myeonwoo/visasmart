@@ -22,7 +22,6 @@ class Article extends CI_Controller {
 		);
 	}
 
-
 	function view()
 	{
 		$data = &$this->data;
@@ -52,7 +51,6 @@ class Article extends CI_Controller {
 
 	function view_dev()
 	{
-
 		$data = &$this->data;
 
 		/** Define parameters **/

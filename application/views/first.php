@@ -194,7 +194,7 @@
 		
 		<aside id="sidebar">
 			
-			<!-- Flickr Photostream Widget -->
+			<!-- 연락처 & 은행계좌 정보 -->
 			<div class="widget" data-smallscreen="yes"> <!-- show widget on a small-screen mobile device: "yes" or "no" -->
 				<h5>Contact Info</h5>
 				<div class="flickr-widget clearfix">
