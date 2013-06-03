@@ -152,60 +152,60 @@
 						
 						<li><a href="contact.html">Template</a>
 							<ul>
-								<li><a href="<?php echo site_url("home"); ?>">Home</a>
+								<li><a href="<?php echo site_url("resource/index"); ?>">Home</a>
 									<ul>
-										<li><a href="<?php echo site_url("home"); ?>">page1</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">page2</a></li>
+										<li><a href="<?php echo site_url("resource/index"); ?>">page1</a></li>
+										<li><a href="<?php echo site_url("resource/index2"); ?>">page2</a></li>
 									</ul>
 								</li>
-								<li><a href="<?php echo site_url("home"); ?>">Page Template</a>
+								<li><a href="<?php echo site_url("resource/about_us"); ?>">Page Template</a>
 									<ul>
-										<li><a href="<?php echo site_url("home"); ?>">About Us</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">Service Page1</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">Service Page2</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">Team</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">Member Profile</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">Gallery</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">Full-width Page</a></li>
+										<li><a href="<?php echo site_url("resource/about_us"); ?>">About Us</a></li>
+										<li><a href="<?php echo site_url("resource/services"); ?>">Service Page1</a></li>
+										<li><a href="<?php echo site_url("resource/services_page2"); ?>">Service Page2</a></li>
+										<li><a href="<?php echo site_url("resource/team"); ?>">Team</a></li>
+										<li><a href="<?php echo site_url("resource/member_profile"); ?>">Member Profile</a></li>
+										<li><a href="<?php echo site_url("resource/gallery"); ?>">Gallery</a></li>
+										<li><a href="<?php echo site_url("resource/fullwidth_page"); ?>">Full-width Page</a></li>
 										
 									</ul>
 								</li>
-								<li><a href="<?php echo site_url("home"); ?>">Portfolio</a>
+								<li><a href="<?php echo site_url("resource/portfolio_1_columns"); ?>">Portfolio</a>
 									<ul>
-										<li><a href="<?php echo site_url("home"); ?>">1 Column</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">2 Column</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">3 Column</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">3 Column Full-width</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">4 Column Full-width</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">Single Project</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">Project with Gallery Slider</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">Project with Slideshow</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">Project with video</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">Youtube Video</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">Vimeo Video</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">HTML5 Video</a></li>
+										<li><a href="<?php echo site_url("resource/portfolio_1_columns"); ?>">1 Column</a></li>
+										<li><a href="<?php echo site_url("resource/portfolio_2_columns"); ?>">2 Column</a></li>
+										<li><a href="<?php echo site_url("resource/portfolio_3_columns"); ?>">3 Column</a></li>
+										<li><a href="<?php echo site_url("resource/portfolio_3_columns_fullwidth"); ?>">3 Column Full-width</a></li>
+										<li><a href="<?php echo site_url("resource/portfolio_4_columns_fullwidth"); ?>">4 Column Full-width</a></li>
+										<li><a href="<?php echo site_url("resource/single_project"); ?>">Single Project</a></li>
+										<li><a href="<?php echo site_url("resource/single_project_gellery_slider"); ?>">Project with Gallery Slider</a></li>
+										<li><a href="<?php echo site_url("resource/single_project_slideshow"); ?>">Project with Slideshow</a></li>
+										<li><a href="<?php echo site_url("resource/single_project_video_youtube"); ?>">Project with video</a></li>
+										<li><a href="<?php echo site_url("resource/single_project_video_youtube"); ?>">Youtube Video</a></li>
+										<li><a href="<?php echo site_url("resource/single_project_video_vimeo"); ?>">Vimeo Video</a></li>
+										<li><a href="<?php echo site_url("resource/single_project_video_html5"); ?>">HTML5 Video</a></li>
 									</ul>
 								</li>
-								<li><a href="<?php echo site_url("home"); ?>">Blog</a>
+								<li><a href="<?php echo site_url("resource/blog"); ?>">Blog</a>
 									<ul>
-										<li><a href="<?php echo site_url("home"); ?>">Large Image</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">Medium Image</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">Single Post</a></li>
+										<li><a href="<?php echo site_url("resource/blog"); ?>">Large Image</a></li>
+										<li><a href="<?php echo site_url("resource/blog_medium_image"); ?>">Medium Image</a></li>
+										<li><a href="<?php echo site_url("resource/single_post"); ?>">Single Post</a></li>
 									</ul>
 								</li>
-								<li><a href="<?php echo site_url("home"); ?>">Features</a>
+								<li><a href="<?php echo site_url("resource/typography"); ?>">Features</a>
 									<ul>
-										<li><a href="<?php echo site_url("home"); ?>">Typography</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">Columns</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">Elements</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">Media and Sliders</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">Pricing Tables</a></li>
+										<li><a href="<?php echo site_url("resource/typography"); ?>">Typography</a></li>
+										<li><a href="<?php echo site_url("resource/columns"); ?>">Columns</a></li>
+										<li><a href="<?php echo site_url("resource/elements"); ?>">Elements</a></li>
+										<li><a href="<?php echo site_url("resource/media"); ?>">Media and Sliders</a></li>
+										<li><a href="<?php echo site_url("resource/pricing_tables"); ?>">Pricing Tables</a></li>
 									</ul>
 								</li>
-								<li><a href="<?php echo site_url("home"); ?>">Contact</a>
+								<li><a href="<?php echo site_url("resource/contact"); ?>">Contact</a>
 									<ul>
-										<li><a href="<?php echo site_url("home"); ?>">Default Layout</a></li>
-										<li><a href="<?php echo site_url("home"); ?>">Alternative Layout</a></li>
+										<li><a href="<?php echo site_url("resource/contact"); ?>">Default Layout</a></li>
+										<li><a href="<?php echo site_url("resource/contact2"); ?>">Alternative Layout</a></li>
 									</ul>
 								</li>
 							</ul>
