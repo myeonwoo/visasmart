@@ -39,7 +39,7 @@
 	
 </head>
 
-<body class="body-bg-image1 image-background">
+<body class="body-bg-image4 image-background">
 <div id="page-wrapper">
 
 

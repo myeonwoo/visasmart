@@ -4,7 +4,7 @@
 @import 'board.css';
 
 /* global defaults */
-	header, hgroup, footer, section, aside, nav, article {display: block; margin:0;padding:0;}
+/*	header, hgroup, footer, section, aside, nav, article {display: block; margin:0;padding:0;}
 	body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,p,blockquote,button,th,td,textarea,input{margin:0;padding:0;}
 	hr, legend {display:none;}
 	img, fieldset {border:0 none;}
@@ -19,7 +19,7 @@
 
 	a.link_bl:link,
 	a.link_bl:visited {text-decoration:underline; color:#000;}
-	a.link_bl:hover{text-decoration:underline; color:#ffc000;}
+	a.link_bl:hover{text-decoration:underline; color:#ffc000;}*/
 
 /* clear Style */
 	.c_box {*zoom:1;}
@@ -75,10 +75,10 @@
 				#header .header_area ul.head_box li.Gnb{width:825px; font-size:0; line-height:0; float:right;}
 
 
-	 #footer{margin:0; padding:35px 0 50px 0; width:100%; text-align:center; clear:both;}
+/*	 #footer{margin:0; padding:35px 0 50px 0; width:100%; text-align:center; clear:both;}
 		#footer ul.footer_area{width:1000px; margin:0 auto; overflow:hidden; text-align:left;}
 			#footer ul.footer_area li.foot_left{width:1000px; overflow:hidden; font-size:0; line-height:0; float:left;}
-			#footer ul.footer_area li.foot_right{width:250px; overflow:hidden; font-size:0; line-height:0; float:right; text-align:right;}
+			#footer ul.footer_area li.foot_right{width:250px; overflow:hidden; font-size:0; line-height:0; float:right; text-align:right;}*/
 
 
 	#s_contents{width:1000px; margin:0 auto; padding:0 0 0 0; overflow:hidden; text-align:left;  z-index:1; background:#fff; }/*url('/common/images/lnb/cons_bg.gif') repeat-y left top;*/

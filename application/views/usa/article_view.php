@@ -51,15 +51,15 @@
 						
 			<!-- Testimonials Carousel -->
 			<div class="widget" data-smallscreen="yes"> <!-- show widget on a small-screen mobile device: "yes" or "no" -->
-				<h5>Our Clients Say</h5>
+				<h5>고객이 남긴 글</h5>
 				<section class="carousel-container testimonials-holder">
 					<div class="carousel-frame">
 						<ul class="testimonials-carousel clearfix">
 							<li>
 								<blockquote class="testimonial">
 									<div class="quote-icon"></div>
-									<p>Just wanna post a huge thanks here to the author for his kind help via email. Great work, wonderful support... The product is absolutely worth purchasing, if anyone in doubt!</p>
-									<span><strong>John Carter</strong>, OnixCreative</span>
+									<p>유용한 유학 정보를 많은 도움되었습니다.</p>
+									<span><strong>임면우</strong>, Appdisco</span>
 								</blockquote>
 							</li>
 							<li>

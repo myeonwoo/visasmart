@@ -9,8 +9,8 @@
 		<div class="one-third column" id="contact-details">
 			<div>
 				<p>Connect with Us</p>
-				<h2 class="phone-number">+1 (510) 700-1234</h2>
-				<a href="mailto:info@ipsum.com">info@ipsum.com</a>
+				<h2 class="phone-number">+82 (02) 739-4777</h2>
+				<a href="mailto:info@example.com">info@example.com</a>
 			</div>
 		</div>
 		
@@ -26,12 +26,11 @@
 			
 			<!-- Footer Navigation -->
 			<ul class="footer-nav clearfix">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about-us.html">About</a></li>
-				<li><a href="services.html">Services</a></li>
-				<li><a href="portfolio-2-columns.html">Portfolio</a></li>
-				<li><a href="blog.html">Blog</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">미국비자</a></li>
+				<li><a href="#">캐나다비자</a></li>
+				<li><a href="#">이민정보</a></li>
+				<li><a href="#">비자스마트</a></li>
 			</ul>
 			
 			<div class="clear"></div> <!-- IE7 margin-bottom fix -->
