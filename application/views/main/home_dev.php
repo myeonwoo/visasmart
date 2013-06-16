@@ -3,38 +3,36 @@
 	<!-- Page Title -->
 	<div class="sixteen columns">
 		<div class="page-title">
-			<!-- <h3>Canada Study</h3>
-			<h1>Canada Study</h1> -->
+			<h3>Canada Study</h3>
+			<h1>Canada Study</h1>
 		</div>
 	</div>
 	
 	<!-- Info Board -->
 	<!-- data-smallscreen: "yes" or "no" - whether to show a block on a small-screen mobile device or not -->
 	<!-- five-item-menu - corresponds to the number of items in the secondary menu -->
-
+	<div class="four columns" id="iBoard" data-smallscreen="yes">
+		
+		<!-- Info Text -->
+		<div class="five columns alpha omega">
+			<aside id="info-board" class="shadow" data-smallscreen="yes">
+				<h5>Overview</h5>
+				<p>If you want to extend your stay in Canada as a student, you must complete the Application to Change Conditions or Extend Your Stay in Canada. Check the expiry date on your study permit, and make sure you apply before that date. You should apply for renewal at least 30 days before your current permit expires.</p>
+				<ul class="check-list colored tight margin-bottom-15px">
+					<li>Get study permit</li>
+					<li>Extend study permit</li>
+					<li>Get student work permit</li>
+					<li>Get teaching ma</li>
+					<li>Get Participate as an educational institution</li>
+				</ul>
+				<div class="small-bar colored margin-bottom-15px"></div>
+				<a href="http://www.cic.gc.ca/english/study" class="link-sm">Canada-Study<span></span></a>
+			</aside>
+		</div>
+	</div>
 	
 	<!-- Page Content -->
 	<div class="twelve columns" id="pContent">
-
-		<div class="four columns" id="iBoard" data-smallscreen="yes" style="float:right;">
-		
-			<!-- Info Text -->
-			<div class="five columns alpha omega">
-				<aside id="info-board" class="shadow" data-smallscreen="yes">
-					<h3>Canada Study: Overview</h5>
-					<p>If you want to extend your stay in Canada as a student, you must complete the Application to Change Conditions or Extend Your Stay in Canada. Check the expiry date on your study permit, and make sure you apply before that date. You should apply for renewal at least 30 days before your current permit expires.</p>
-					<ul class="check-list colored tight margin-bottom-15px">
-						<li>Get study permit</li>
-						<li>Extend study permit</li>
-						<li>Get student work permit</li>
-						<li>Get teaching ma</li>
-						<li>Get Participate as an educational institution</li>
-					</ul>
-					<div class="small-bar colored margin-bottom-15px"></div>
-					<a href="http://www.cic.gc.ca/english/study" class="link-sm">Canada-Study<span></span></a>
-				</aside>
-			</div>
-		</div>
 	
 		<section id="page-content" class="clearfix"> <!-- inner grid 720 pixels wide -->
 		
@@ -169,16 +167,12 @@
 				<div class="flickr-widget clearfix">
 					<img class="" style="width:100%;" src="<?php echo base_url(); ?>static/common/images/main/main_con_c01.gif" alt="">
 					<img class="" style="width:100%;" src="<?php echo base_url(); ?>static/common/images/main/main_con_c02.gif" alt="">
-					<img class="" style="width:100%;" src="<?php echo base_url(); ?>static/common/images/main/main_con_r04_02.gif" alt="">
-					<img class="" style="width:100%;" src="<?php echo base_url(); ?>static/common/images/main/main_con_r04_03.gif" alt="">
-					<img class="" style="width:100%;" src="<?php echo base_url(); ?>static/common/images/main/main_con_r04_01.gif" alt="">
 				</div>
 				<br />
-				<h5>Case study</h5>
+				<h5>What We Help</h5>
 				<div class="flickr-widget clearfix">
 					<img class="" style="width:80%;" src="<?php echo base_url(); ?>static/common/images/main/main_con_r03_05.gif" alt="">
 					<img class="" style="width:80%;" src="<?php echo base_url(); ?>static/common/images/main/main_con_r03_06.gif" alt="">
-					<img class="" style="width:80%;" src="<?php echo base_url(); ?>static/common/images/main/main_banner_cafe.gif" alt="">
 				</div>
 				<div class="clear"></div> <!-- IE7 margin-bottom fix -->
 			</div>
@@ -255,8 +249,8 @@
 				<h5>Contact Info</h5>
 				<div class="flickr-widget clearfix">
 					
-					<img class="" style="width:80%;" src="<?php echo base_url(); ?>static/common/images/lnb/Lnb_Banner01.gif" alt="">
-					<img class="" style="width:80%;" src="<?php echo base_url(); ?>static/common/images/lnb/Lnb_Banner02.gif" alt="">
+					<img class="" style="width:100%;" src="<?php echo base_url(); ?>static/common/images/lnb/Lnb_Banner01.gif" alt="">
+					<img class="" style="width:100%;" src="<?php echo base_url(); ?>static/common/images/lnb/Lnb_Banner02.gif" alt="">
 				</div>
 				<div class="clear"></div> <!-- IE7 margin-bottom fix -->
 			</div>

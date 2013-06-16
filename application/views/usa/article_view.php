@@ -51,7 +51,7 @@
 						
 			<!-- Testimonials Carousel -->
 			<div class="widget" data-smallscreen="yes"> <!-- show widget on a small-screen mobile device: "yes" or "no" -->
-				<h5>고객이 남긴 글</h5>
+				<h5>Our Clients Say</h5>
 				<section class="carousel-container testimonials-holder">
 					<div class="carousel-frame">
 						<ul class="testimonials-carousel clearfix">
@@ -59,7 +59,7 @@
 								<blockquote class="testimonial">
 									<div class="quote-icon"></div>
 									<p>유용한 유학 정보를 많은 도움되었습니다.</p>
-									<span><strong>임면우</strong>, Appdisco</span>
+									<span><strong>Myeonwoo Lim</strong>, Appdisco</span>
 								</blockquote>
 							</li>
 							<li>
@@ -88,6 +88,19 @@
 				</section>
 			</div>
 			<!-- end Testimonials Carousel -->
+
+			<!-- 연락처 & 은행계좌 정보 -->
+			<div class="widget" data-smallscreen="yes"> <!-- show widget on a small-screen mobile device: "yes" or "no" -->
+				<h5>Useful Info</h5>
+				<div class="flickr-widget clearfix">
+					
+					<img class="" style="width:100%;" src="<?php echo base_url(); ?>static/common/images/main/main_con_c01.gif" alt="">
+					<img class="" style="width:100%;" src="<?php echo base_url(); ?>static/common/images/main/main_con_c02.gif" alt="">
+					<img class="" style="width:100%;" src="<?php echo base_url(); ?>static/common/images/main/main_con_r03_01.gif" alt="">
+					<img class="" style="width:100%;" src="<?php echo base_url(); ?>static/common/images/main/main_con_r03_02.gif" alt="">
+				</div>
+				<div class="clear"></div> <!-- IE7 margin-bottom fix -->
+			</div>
 
 			<!-- 연락처 & 은행계좌 정보 -->
 			<div class="widget" data-smallscreen="yes"> <!-- show widget on a small-screen mobile device: "yes" or "no" -->

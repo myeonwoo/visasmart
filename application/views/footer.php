@@ -48,7 +48,7 @@
 			
 			<div class="twelve columns alpha">
 				<ul class="links clearfix">
-					<li>&copy; 2013 Tectonic<span>|</span></li>
+					<li>&copy; 2013 Visasmart<span>|</span></li>
 					<li><a href="#">Legal Notice</a><span>|</span></li>
 					<li><a href="#">Terms</a></li>
 				</ul>
